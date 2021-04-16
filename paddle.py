@@ -4,3 +4,6 @@ class Paddle():
 	    self.y = y
 	    self.width = width
 	    self.height = height
+
+	    # If the paddle is being dragged
+	    self.drag = False
